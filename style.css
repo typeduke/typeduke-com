@@ -94,7 +94,7 @@
 }
 .footer-column {
   flex-grow: 1;
-  width: 280px;
+  width: 300px;
   padding: 5px 10px;
   font: 400 14px/22px 'JetBrains Mono', monospace;
 }
