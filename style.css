@@ -48,11 +48,11 @@
   height: 100vh;
 }
 .inner-wrapper {
-  width: 780px;
+  width: 700px;
 }
 .header {
   border-bottom: 1px solid #d3d3d3;
-  padding: 15px 10px;
+  padding: 50px 10px 15px 10px;
   text-align: center;
 }
 .links {
@@ -63,8 +63,7 @@
 }
 .link {
   flex-grow: 1;
-  /* width: 240px; */
-  width: 180px;
+  width: 160px;
   padding: 5px 10px;
 }
 /*
@@ -81,7 +80,6 @@
 }
 .footer-column {
   flex-grow: 1;
-  /* width: 370px; */
   width: 280px;
   padding: 5px 10px;
 }
