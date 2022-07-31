@@ -98,9 +98,6 @@
   padding: 5px 10px;
   font: 400 14px/22px 'JetBrains Mono', monospace;
 }
-summary::marker {
-  content: '+ ';
-}
 body {
   font: 400 16px/24px 'Inter', sans-serif;
 }
@@ -137,4 +134,15 @@ img.icon {
 a {
   text-decoration: none;
   color: #df2a00;
+}
+details summary:hover {
+  cursor: pointer;
+}
+details summary::-webkit-details-marker,
+details summary::marker {
+  display: none;
+  content: '';
+}
+details summary::before {
+  content: '+ ';
 }
