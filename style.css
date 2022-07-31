@@ -13,6 +13,20 @@
 @font-face {
   font-family: 'JetBrains Mono';
   font-style: normal;
+  font-weight: 400;
+  src: url('fonts/jetbrains-mono-v13-latin-regular.eot');
+  src: local(''),
+    url('fonts/jetbrains-mono-v13-latin-regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/jetbrains-mono-v13-latin-regular.woff2') format('woff2'),
+    url('fonts/jetbrains-mono-v13-latin-regular.woff') format('woff'),
+    url('fonts/jetbrains-mono-v13-latin-regular.ttf') format('truetype'),
+    url('fonts/jetbrains-mono-v13-latin-regular.svg#JetBrainsMono')
+      format('svg');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
   font-weight: 600;
   src: url('fonts/jetbrains-mono-v13-latin-600.eot');
   src: local(''),
@@ -82,6 +96,7 @@
   flex-grow: 1;
   width: 280px;
   padding: 5px 10px;
+  font: 400 14px/22px 'JetBrains Mono', monospace;
 }
 body {
   font: 400 16px/24px 'Inter', sans-serif;
